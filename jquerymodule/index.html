@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JQuery Learning</title>
+
+	<style>
+		body {
+
+		font-size : 17px;
+		font-family: arial;
+		background: #f4f4f4;
+		line-height: 1.5em;
+
+		}
+
+		header {
+		background: #333;
+		color : #fff;
+
+		padding : 20px;
+		text-align:center;
+		border-bottom: 4px #0000 solid;
+		margin-bottom : 10px;
+
+		}
+
+		#container{
+		width: 90%;
+
+		margin : auto;
+		padding : 10px;
+
+		}
+
+		.myClass {
+	
+		color : blue;
+		background : black;
+
+		}
+
+
+		#box {
+	
+		background: #333;
+
+		color : #fff;
+
+		width: 500px;
+
+		height : 90px;
+
+		padding: 50px;
+
+		text-align : center;
+
+		}
+
+		#box2{
+	
+		background: red;
+
+		height : 500px;
+
+		width: 500px;
+
+		padding: 50px;
+
+		border : 2px solid red;
+
+		border-radius: 50%;
+
+		position : relative;
+
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+<header>
+	<h1>Learning JQuery</h1>
+</header>
+
+<div id="container">
+		
+		<h1 id="heading1">Heading 1</h1>
+
+		<p id="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, qui quia aperiam. Cum at repellendus ex quidem maiores, id optio fuga perferendis quasi necessitatibus, labore error, asperiores explicabo eum possimus!</p>
+
+		
+
+			
+		<h1 class="heading2">Heading 2</h1>
+
+		<p class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, qui quia aperiam. Cum at repellendus ex quidem maiores, id optio fuga perferendis quasi necessitatibus, labore error, asperiores explicabo eum possimus!</p>
+
+		<ul id="list">
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+		</ul>
+
+		<input type="submit" value="Button1">
+		<input type="text">
+
+	<a href="http://www.google.com">Google</a>
+	
+	<a href="http://www.yahoo.com">Yahoo</a>
+</div>
+
+
+<!-- Events -->
+
+<div id="container">
+<h1>Mouse Events</h1>
+
+<button id = 'button1'>Button1</button>
+<button id="button2">Button2</button>
+<p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas incidunt blanditiis, autem ratione facilis nisi. Sed libero perspiciatis provident commodi recusandae sequi, quaerat iure sit temporibus impedit quisquam, delectus soluta.</p>
+	
+	<form action="" id="form">
+		<label for="">Name</label>
+		<input type="text" id="name" name="name">
+
+		<label for="">Email</label>
+		<input type="email" id="email" name="email">
+
+		<label for="">Gender</label>
+		<select name="gender" id="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select>
+		<input type="submit" value="Submit">
+	</form>
+
+	<div id="container">
+		
+	<button id="btn1">Button1</button>
+	<p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur debitis molestias mollitia tenetur tempora provident itaque veritatis! Quaerat praesentium accusamus quod, ipsam quas, eaque cumque nulla atque quos vero maiores!</p>
+
+	<p class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fugit aperiam in numquam, distinctio accusamus molestias vel, commodi iure, molestiae eius velit laborum ullam. Quaerat ullam repellat inventore quam nostrum!</p>
+
+	<div id="myDiv"></div>
+
+	</div>
+
+	<input type="text" placeholder="Enter a new item" id="new_item">
+
+	<ul id="list">
+		<li>List Item 1</li>
+		<li>List Item 2</li>
+		<li>List Item 3</li>
+		<li>List Item 4</li>
+	</ul>
+	
+
+
+<a href="http://www.google.com">Google</a>
+
+<h1>Effects and Animation In jQuery</h1>
+
+<div id="container">
+	<button id="fadeOut">
+		fadeOut
+	</button>
+
+	<button id="fadeIn">fadeIn</button>
+
+	<button id="fadeToggle">fadeToggle</button>
+
+	<div id="box"></div>
+
+	<hr>
+	<hr>
+	
+	<button id="moveleft">
+		Move Left
+	</button>
+	<button id="moveright">Move Right</button>
+	<button id="movearound">Move Around</button>
+
+	<div id="box2"></div>
+
+</div>
+
+<div id="container">
+	<div id="result"></div>
+</div>
+
+<h3>Add Post</h3>
+
+<form action="https://jsonplaceholder.typicode.com/posts" method="post" id="former">
+		<label for="">Title</label>
+		<input type="text" placeholder="Enter the title" id="title">
+		<textarea name="" id="body" cols="30" rows="10" placeholder="body"></textarea>
+
+<input type="submit" value="Submit">
+
+</form>
+
+
+</div>
+
+	
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script src="selectors.js"></script>
+   <script src="events.js"></script>
+    <script src="dom.js"></script>
+    <script src="ajax.js"></script>
+</body>
+</html>
